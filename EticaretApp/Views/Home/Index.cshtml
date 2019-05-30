@@ -1,0 +1,45 @@
+﻿@using EticaretApp.Models;
+@model IEnumerable<ProductModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">E - Ticaret </h1>
+        <p class="lead">Best prices when you need to buy some electronics</p>
+        <hr class="my-4">
+        <p class="lead">
+        </p>
+
+    </div>
+</div>
+
+
+<div class="container pb-5">
+    @Html.Partial("_ProductList", Model)
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
